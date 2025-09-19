@@ -1,0 +1,1052 @@
+div.heroSection {
+    background: url(./heroSectionBackground2.png);
+    position: relative;
+    border-radius: 0px;
+}
+
+div.heroSectionGradientBackground {
+    background: linear-gradient(90deg, rgba(6, 9, 58, 0.62), rgba(6, 9, 58, 0.179));
+}
+
+nav.navbar.navbar-expand-lg {
+    padding: 0px 0px 0px 0px;
+    height: 90px;
+}
+
+nav.navbar div.container-fluid {
+    padding: 0px 12px 0px 0px;
+}
+
+nav.navbar div.container-fluid a.navbar-brand img {
+    width: 65px;
+}
+
+/*
+div.collapse.navbar-collapse {
+    justify-content: flex-end !important;
+} 
+
+ul.navbar-nav {
+    width: 75%;
+    justify-content: space-around;
+} */
+
+nav.navbar ul.navbar-nav li.nav-item {
+    position: relative;
+}
+
+li.nav-item a.nav-link {
+    color: #ffffff;
+    /* font-family: "Kumbh Sans", sans-serif; */
+    font-weight: bold;
+    /* border-bottom: 4px solid transparent;
+    transition: border-bottom linear 0.2s; */
+}
+
+h1.card-title {
+    font-family: "Times New Roman", serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #E2B479;
+}
+
+p.card-text {
+    font-family: "Kumbh sans", sans-serif;
+    color: #FFFFFF;
+}
+
+a.btn.btn-primary.exploreButton {
+    width: 155px;
+    background: transparent;
+    font-size: 21px;
+    border: 2px solid #E2B479;
+    border-radius: 0px;
+    padding: 10px 14px 10px 14px;
+}
+
+div.collections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+}
+
+div.collections a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+h2.collectionsHeader {
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    margin: 20px 0px 40px 0px;
+}
+
+h2.collectionsHeader::after {
+    content: "";
+    height: 4px;
+    width: 54%;
+    position: absolute;
+    background-color: #E2B479;
+    top: 38px;
+    right: 23%;
+    bottom: 0px;
+    left: 23%;
+}
+
+div.collectionsCardContainer {
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+}
+
+div.collectionsCardContainer div.collectionsCardSubContainerOne {
+    display: flex;
+    justify-content: center;
+    column-gap: 6vw;
+}
+
+div.collectionsCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+
+div.collectionsCardContainer div.collectionsCardSubContainerTwo {
+    display: flex;
+    justify-content: center;
+    column-gap: 6vw;
+}
+
+div.collectionsCardContainer div#collectionsCardFive {
+    /* grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3; */
+}
+
+div.collectionsCardContainer div.collectionsCard img {
+    width: 24vw;
+}
+
+div.collectionsCardContainer div.collectionsCard img#corporateImg {
+    width: 26.8vw;
+}
+
+div.collectionsCardContainer div.collectionsCard h2 {
+    font-family: "Kumbh sans";
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+    font-size: 1.5rem;
+}
+
+div.containerOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 100px 0px;
+}
+
+h2.cardHeader {
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    margin: 72px 0px 40px 0px;
+}
+
+h2.cardHeader::after {
+    content: "";
+    height: 4px;
+    width: 54%;
+    position: absolute;
+    background-color: #E2B479;
+    top: 38px;
+    right: 23%;
+    bottom: 0px;
+    left: 23%;
+}
+
+div.containerOne div.cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 1350px; */
+    width: 90vw;
+}
+
+div.containerOne div.cardContainer div.cardSubContainerOne {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0px 0px 28px 0px;
+}
+
+div.containerOne div.cardContainer div a img {
+    height: 100%;
+    width: 20vw;
+}
+
+div.containerOne div.cardContainer div.cardSubContainerTwo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+div.buttonDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+div.buttonDiv a.buttonLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #08172C;
+    color: #FFFFFF;
+    height: 42px;
+    width: 160px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0px 0px 6px 0px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #08171C;
+}
+
+footer div.footerDivOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: 90%;
+    padding: 16px 0px 0px 0px;
+}
+
+footer div.footerDivOne div.footerSubDivOne {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div.footerDivOne div.footerSubDivOne img {
+    width: 250px;
+}
+
+footer div.footerDivOne div.footerSubDivOne span a {
+    margin: 0px 10px 0px 0px;
+}
+
+footer div.footerDivOne div.footerSubDivOne span a img {
+    /* display: inline-block; */
+    width: 30px;
+}
+
+footer div.footerDivOne div.footerSubDivThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+footer div.footerDivOne div.footerSubDivThree p {
+    margin: 0px 0px 0px 0px;
+    color: #FFFFFF;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+}
+
+footer div.footerDivOne div.footerSubDivThree a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer div.footerDivOne div.footerSubDivFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+footer div.footerDivOne div.footerSubDivFour p {
+    margin: 0px 0px 0px 0px;
+    color: #FFFFFF;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 900;
+}
+
+footer div.footerDivOne div.footerSubDivFour a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer div.footerDivTwo {
+    width: 90%;
+}
+
+footer div.footerDivTwo hr {
+    height: 4px;
+    background-color: #FFFFFF;
+}
+
+footer div.footerDivThree {
+    width: 90%;
+}
+
+footer div.footerDivThree p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+/* about.html styles */
+body#aboutBody {
+    background-color: #08172C;
+}
+
+body#aboutBody div.card.heroSection img.card-img {
+    height: 740px;
+    object-fit: cover;
+}
+
+body#aboutBody div.card.heroSection div.heroSectionGradientBackground {
+    padding: 0px 0px 0px 0px;
+}
+
+body#aboutBody div.card.heroSection div.collapse.navbar-collapse {
+    position: relative;
+    z-index: 2;
+}
+
+body#aboutBody div.card.heroSection div.heroSectionGradientBackground h1.card-title {
+    position: absolute;
+    width: 100%;
+    top: 44%;
+    text-align: center;
+    /* margin: 200px 0px 0px 0px; */
+    /* font-size: 56px; */
+    font-size: 70px;
+}
+
+body#aboutBody div.card#cardOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 310px;
+    width: 100%;
+    background-color: transparent;
+}
+
+body#aboutBody div.card#cardOne p.cardContent {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    width: fit-content;
+    min-width: min-content;
+    border-bottom: 2px solid #E2B479;
+}
+
+body#aboutBody div.card#cardTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    margin: 0px 0px 60px 0px;
+}
+
+body#aboutBody div.card div.imgContainer {
+    width: 44%;
+}
+
+body#aboutBody div.card div.imgContainer img {
+    width: 100%;
+}
+
+body#aboutBody div.card div.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 44%;
+}
+
+body#aboutBody div.card div.contentContainer p {
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 80%;
+}
+
+body#aboutBody div.card div.contentContainer img {
+    width: 100%;
+}
+
+body#aboutBody div.card#cardThree {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    margin: 0px 0px 40px 0px;
+}
+
+body#aboutBody div.card#cardThree div p {
+    font-weight: 200;
+    text-align: center;
+}
+
+body#aboutBody div.buttonDiv a.buttonLink {
+    border: 2px solid #FFFFFF;
+    margin: 0px 0px 50px 0px;
+}
+
+body#aboutBody footer {
+    background-color: #08172C;
+    border-top: 2px solid #FFFFFF;
+}
+
+/* gallery.html styles */
+body#galleryBody div.card.heroSection img.card-img {
+    height: 740px;
+    object-fit: cover;
+}
+
+body#galleryBody div.card.heroSection div.heroSectionGradientBackground {
+    padding: 0px 0px 0px 0px;
+}
+
+body#galleryBody div.card.heroSection div.collapse.navbar-collapse {
+    position: relative;
+    z-index: 2;
+}
+
+body#galleryBody div.card.heroSection div.heroSectionGradientBackground h1.card-title {
+    position: absolute;
+    width: 100%;
+    top: 44%;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    /* font-size: 56px; */
+    font-size: 70px;
+}
+
+body#galleryBody div.imagesContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 6px 0px 0px 0px;
+    /*flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px 0px 100px 0px; */
+}
+
+body#galleryBody div.imagesContainer div.imgSubContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 4px solid #000000; */
+}
+
+body#galleryBody div.imagesContainer img {
+    height: 100%;
+    width: 100%;
+}
+
+body#galleryBody div.buttonDiv a.buttonLink {
+    margin: 26px 0px 6px 0px;
+}
+
+@media (min-width: 1400px) {
+    nav.navbar {
+        margin: 0px 0px 125px 0px;
+    }
+
+    nav.navbar div.container-fluid a.navbar-brand {
+        margin: 0px 16px 0px 3vw;
+    }
+
+    h1.card-title {
+        font-size: 60px;
+        margin: 0px 0px 9px 3vw;
+    }
+
+    p.card-text {
+        font-size: 18px;
+        margin: 0px 0px 7.5vw 3vw;
+    }
+
+    a.btn.btn-primary.exploreButton {
+        height: 60px;
+        width: 205px;
+        font-size: 21px;
+        margin: 0px 0px 0px 3vw;
+    }
+
+    div.awabBrandLogoContainer.card-text img.awabBrandLogo {
+        height: 6vw;
+    }
+
+    div.collections {
+        display: flex;
+        justify-content: center;
+    }
+
+    div.collections h2.collectionsHeader {
+        font-family: "Times New Roman", serif;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    /* div.collections h2.collectionsHeader::after {
+        height: 100px;
+        width: 100px;
+    }
+
+    div.collections a::after {
+        background-color: red;
+        width: 100%;
+    } */
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    nav.navbar {
+        margin: 0px 0px 5.5vw 0px;
+    }
+
+    nav.navbar div.container-fluid a.navbar-brand {
+        margin: 0px 16px 0px 4.2vw;
+    }
+
+    h1.card-title {
+        font-size: 55px;
+        margin: 0px 0px 8px 4.2vw;
+    }
+
+    p.card-text {
+        font-size: 18px;
+        margin: 0px 0px 7.5vw 4.2vw;
+    }
+
+    a.btn.btn-primary.exploreButton {
+        margin: 0px 0px 0px 4.2vw;
+        height: 60px;
+        width: 205px;
+    }
+
+    /* about.html styles */
+    body#aboutBody div.card.heroSection div.heroSectionGradientBackground h1.card-title {
+        margin: 0px 0px 0px 0px;
+    }
+
+    body#aboutBody div div.imgContainer {
+        width: 48%;
+    }
+
+    /* gallery.html styles */
+    body#galleryBody div.card.heroSection div.heroSectionGradientBackground h1.card-title {
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    nav.navbar {
+        margin: 0px 0px 4.5vw 0px;
+    }
+
+    nav.navbar div.container-fluid a.navbar-brand {
+        margin: 0px 16px 0px 3vw;
+    }
+
+    h1.card-title {
+        font-size: 49px;
+        margin: 0px 0px 8px 3vw;
+    }
+
+    p.card-text {
+        font-size: 16px;
+        margin: 0px 0px 5.5vw 3vw;
+    }
+
+    a.btn.btn-primary.exploreButton {
+        height: 54px;
+        width: 202px;
+        padding: 8px 12px 8px 12px;
+        margin: 0px 0px 0px 3vw;
+    }
+
+    /* about.html styles */
+    body#aboutBody div div.imgContainer {
+        width: 52%;
+    }
+}
+
+@media (min-width: 992px) {
+    nav.navbar div.collapse.navbar-collapse {
+        background: none !important;
+        justify-content: flex-end !important;
+    }
+
+    nav.navbar div.collapse.navbar-collapse ul.navbar-nav {
+        width: 75% !important;
+        justify-content: space-around;
+    }
+
+    nav.navbar div.collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
+        padding: 1em 0px 1em 0px;
+    }
+    
+    nav.navbar ul.navbar-nav li.nav-item::after {
+        position: absolute;
+        height: 4px;
+        width: 0%;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+        background-color: #E2B479;
+        content: "";
+        transition: all 0.5s;
+    }
+
+    nav.navbar ul.navbar-nav li.nav-item:hover::after {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    div.heroSectionGradientBackground {
+        padding: 0.5rem 8px 0.5rem 8px;
+    }
+
+    nav.navbar div.container-fluid {
+        padding: 0px 0px 0px 0px;
+    }
+
+    nav.navbar div.container-fluid button.navbar-toggler {
+        border: 1px solid #ffffff;
+        margin: 0px 2.2vw 0px 0px;
+    }
+
+    nav.navbar div.container-fluid button.navbar-toggler:focus {
+        box-shadow: 0px 0px 0px 0.25rem #ffffff;
+    }
+
+    nav.navbar div.container-fluid button.navbar-toggler span.navbar-toggler-icon {
+        background: none;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    nav.navbar div.collapse.navbar-collapse {
+        background: linear-gradient(90deg, rgba(6, 9, 58, 0.62), rgba(6, 9, 58, 0.179));
+    }
+
+    nav.navbar ul.navbar-nav {
+        width: 100%;
+    }
+
+    nav.navbar ul.navbar-nav li.nav-item hr {
+        margin: 0;
+        color: #ffffff;
+        border: none;
+        border-top: 1px solid #ffffff;
+        opacity: 1;
+    }
+
+    nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+        text-align: center;
+    }
+
+    a.btn.btn-primary.exploreButton {
+        width: 155px;
+    }
+
+    /* about.html styles */
+    body#aboutBody div.card#cardOne p.cardContent {
+        width: 80%;
+    }
+    
+    body#aboutBody div.card#cardTwo {
+        flex-direction: column;
+    }
+
+    body#aboutBody div div.imgContainer {
+        width: 62%;
+        margin: 0px 0px 70px 0px;
+    }
+
+    body#aboutBody div div.contentContainer {
+        width: 100%;
+    }
+
+    body#aboutBody div div.contentContainer p {
+        width: 80%;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    body#aboutBody div div.contentContainer img {
+        width: 62%;
+    }
+
+    body#aboutBody div.card#cardThree {
+        flex-direction: column-reverse;
+    }
+
+    /* gallery.html styles */
+    body#galleryBody div.imagesContainer {
+        /* display: grid; */
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin: 30px 0px 0px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    /* nav.navbar {
+        margin: 0px 0px 3.2vw 0px;
+    }  */
+
+    nav.navbar ul.navbar-nav li.nav-item hr {
+        margin-top: 8px;
+    }
+
+    nav.navbar div.container-fluid a.navbar-brand {
+        margin: 0px 0px 0px 4.5vw;
+    }
+
+    div.heroSection img.card-img {
+        height: 100%;
+        /* object-fit: cover; */
+    }
+
+    h1.card-title {
+        font-size: 42px;
+        margin: 0px 0px 6px 4.5vw;
+    }
+
+    p.card-text {
+        font-size: 13px;
+        margin: 0px 0px 4.5vw 4.5vw;
+    }
+
+    a.btn.btn-primary.exploreButton {
+        height: 42px;
+        font-size: 16px;
+        margin: 0px 0px 0px 4.5vw;
+        padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+    }
+
+    /* about.html styles */
+    body#aboutBody div.card.heroSection div.heroSectionGradientBackground h1.card-title {
+        margin: 0px 0px 0px 0px;
+    }
+
+    /* gallery.html styles */
+    /* about.html styles */
+    body#galleryBody div.card.heroSection div.heroSectionGradientBackground h1.card-title {
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    div.collections {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.collections div.collectionsCardContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.collections div.collectionsCardContainer div.collectionsCardSubContainerOne {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 1448px;
+    }
+
+    div.collections div.collectionsCardContainer div.collectionsCardSubContainerOne 
+    div.collectionsCard a img {
+        width: 270px;
+    }
+
+    div.collections div.collectionsCardContainer div.collectionsCardSubContainerOne 
+    div.collectionsCard a img#corporateImg {
+        width: 270px;
+    }
+
+    div.collections div.collectionsCardContainer div.collectionsCardSubContainerOne 
+    div.collectionsCard a h2 {
+        font-size: 26px;
+    }
+
+    div.collections div.collectionsCardContainer div.collectionsCardSubContainerTwo {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 890px;
+    }
+
+    div.collections div.collectionsCardContainer div.collectionsCardSubContainerTwo
+    div.collectionsCard a img {
+        width: 270px;
+    }
+
+    div.collections div.collectionsCardContainer div.collectionsCardSubContainerTwo
+    div.collectionsCard a h2 {
+        font-size: 26px;
+    }
+
+    div.containerOne div.cardContainer div.cardSubContainerOne {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 0px 40px 0px;
+        height: 1520px;
+    }
+
+    div.containerOne div.cardContainer div.cardSubContainerOne a {
+        width: fit-content;
+    }
+
+    div.containerOne div.cardContainer div.cardSubContainerOne img {
+        width: 270px;
+    }
+    
+    div.containerOne div.cardContainer div.cardSubContainerTwo {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 1466px;
+    }
+
+    div.containerOne div.cardContainer div.cardSubContainerTwo img {
+        width: 270px;
+    }
+
+    div.containerOne div.cardContainer div.cardSubContainerOne.three {
+        height: 1300px;
+    }
+
+    div.containerOne div.cardContainer div.cardSubContainerTwo.three {
+        height: 1300px;
+    }
+
+    /* about.html styles */
+    body#aboutBody div.card.heroSection img.card-img {
+        height: 100%;
+    }
+
+    body#aboutBody div.card.heroSection div.heroSectionGradientBackground h1.card-title {
+        font-size: 56px;
+    }
+
+    body#aboutBody div.card#cardOne p.cardContent {
+        width: 60%;
+    }
+
+    /* gallery.html styles */
+    body#galleryBody div.card.heroSection img.card-img {
+        height: 100%;
+    }
+
+    body#galleryBody div.card.heroSection div.heroSectionGradientBackground h1.card-title {
+        font-size: 56px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    div.heroSection {
+        /* background-image: url("./heroSectionBackground2.png"); */
+        height: 414px;
+    }
+
+    div.heroSection img.card-img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    nav.navbar {
+        margin: 0px 0px 0px 0px;
+    }
+
+    nav.navbar div.container-fluid a.navbar-brand { 
+        margin: 0px 0px 0px 2.2vw; 
+    }
+
+    h1.card-title {
+        text-align: center;
+        font-size: 44px;
+    }
+
+    p.card-text {
+        text-align: center;
+        margin: 0px 0px 26px 0px;
+    }
+
+    a.btn.btn-primary.exploreButton {
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+        height: 46px;
+        width: 152px;
+        letter-spacing: 0.9px;
+        font-size: 18px;
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    div.heroSection {
+        height: fit-content;
+    }
+
+    div.heroSection img.card-img {
+        height: 100%;
+        position: absolute;
+        object-fit: cover;
+    }
+
+    div.heroSectionGradientBackground {
+        position: relative;
+    }
+
+    nav.navbar div.container-fluid a.navbar-brand {
+        margin: 0px 0px 0px 2.2vw;
+    }
+
+    nav.navbar div.container-fluid a.navbar-brand img {
+        width: 57px; 
+    }
+
+    h1.card-title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    p.card-text {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    a.btn.btn-primary.exploreButton {
+        height: 44px;
+        width: 145px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        margin: 10px 10px 22px 10px;
+    }
+
+    footer div.footerDivOne {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    footer div.footerDivOne div.footerSubDivOne {
+        justify-content: space-evenly;
+        height: 130px;
+        margin: 0px 0px 18px 0px;
+    }
+
+    footer div.footerDivOne div.footerSubDivOne img {
+        width: 160px;
+    }
+
+    footer div.footerDivOne div.footerSubDivOne span {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer div.footerDivOne div.footerSubDivThree {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 140px;
+        margin: 0px 0px 18px 0px;
+    }
+
+    footer div.footerDivOne div.footerSubDivThree p {
+        width: fit-content;
+    }
+
+    footer div.footerDivOne div.footerSubDivThree a {
+        width: fit-content;
+    }
+
+    footer div.footerDivOne div.footerSubDivFour {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 84px;
+    }
+
+    footer div.footerDivOne div.footerSubDivFour p {
+        width: fit-content;
+    }
+
+    footer div.footerDivOne div.footerSubDivFour a {
+        width: fit-content;
+    }
+
+    /* about.php styles */
+    body#aboutBody div.heroSection {
+        height: 414px;
+    }
+
+    body#aboutBody div.card.heroSection div.heroSectionGradientBackground h1.card-title {
+        font-size: 48px;
+    }
+
+    /* gallery.html styles */
+    body#galleryBody div.heroSection {
+        height: 414px;
+    }
+
+    body#galleryBody div.card.heroSection div.heroSectionGradientBackground h1.card-title {
+        font-size: 48px;
+    }
+
+    body#galleryBody div.imagesContainer {
+        /* display: grid;
+        /* grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin: 30px 0px 0px 0px; */
+    }
+}
